@@ -11,7 +11,7 @@
 - *CSS*
 
 ## ☑️ Status do Projeto:
-    **Em construção** 🚧
+**Concluido** ✅
 
 ## ⚙️ Funcionalidades:
 *Em breve*
