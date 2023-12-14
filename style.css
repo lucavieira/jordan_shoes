@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Archivo', sans-serif;
+    /* font-family: 'Space Grotesk', sans-serif; PRECO*/
+}
+
+:root {
+    --brand-color: #7CA2F4;
+    --dark-10: #121214;
+    --dark-20: #F3F7FF;
+    --dark-30: #FFFFFF;
+}
