@@ -94,8 +94,7 @@ main {
     gap: 72px;
     align-items: center;
 
-    width: 80%;
-    margin: auto;
+    margin: 0px 142px;
 }
 
 main #main-header {
@@ -104,7 +103,7 @@ main #main-header {
     align-items: center;
     gap: 24px;
 
-    width: 42%;
+    padding: 0px 311.5px;
 }
 
 main #main-header h2 {
@@ -151,6 +150,12 @@ main .product .image:hover {
     transform: scale(1.1);
 }
 
+main .product .detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 main .product .detalhes .titulo {
     font-size: 14px;
 }
@@ -195,5 +200,20 @@ main .product .preco {
 
     header .container #descricao h2 {
         font-size: 24px;
+    }
+
+    main {
+        margin: 0px 32px;
+        padding: 56px 0px;
+        gap: 40px;
+    }
+
+    main #main-header {
+        gap: 12px;
+        padding: 56px 92px 0px;
+    }
+
+    main #main-header p {
+        font-size: 16px;
     }
 }
