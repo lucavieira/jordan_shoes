@@ -2,11 +2,9 @@
 
 <p>Desafio 2 da Codelândia. Mais um desafio proposto pelo <a href="https://www.linkedin.com/in/iuricode/">Iuri Silva</a>. O projeto é uma loja de sapatos da linha Air Jordan da Nike.</p>
 
-<div style="display: flex; gap: 10px;">
-    <img src="./assets/images/desktop.png" alt="Demonstração do projeto Desktop">
-    <img src="./assets/images/tablet.png" alt="Demonstração do projeto Tablet">
-    <img src="./assets/images/mobile.png" alt="Demonstração do projeto Mobile">
-</div>
+<p align="center">
+    <img src="./assets/images/desktop.png" alt="Demonstração do projeto Desktop" width="600">
+</p>
 
 ## 🛠 Techs utilizadas:
 - *HTML*
