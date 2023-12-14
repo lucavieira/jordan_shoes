@@ -44,12 +44,14 @@ header .container #slogan {
     gap: 40px;
 
     position: absolute;
-    left: 280px;
-    top: 94px;
+    /* left: 280px;
+    top: 94px; */
+
+    padding: 95px 650px 95px 352px;
 
     color: var(--dark-30);
 
-    width: 26.5%;
+    /* width: 26.5%; */
 }
 
 header .container #logo {
@@ -163,4 +165,35 @@ main .product .preco {
     color: var(--dark-10);
     font-size: 16px;
     font-family: 'Space Grotesk', sans-serif;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+    header .container {
+        height: 350px;
+        background: linear-gradient(0deg, rgba(18, 18, 20, 0.20) 0%, rgba(18, 18, 20, 0.20) 100%), url(./assets/images/jordan-background-tablet.png), lightgray 50% / contain;
+        background-repeat: no-repeat;
+    }
+
+    header .container #slogan {
+        padding: 99px 380px 149px 32px;
+    }
+
+    header .container #logo h1 {
+        font-size: 18px;
+    }
+
+    header .container #logo img {
+        width: 32px;
+        height: 32px;
+    }
+
+    header .container #descricao {
+        gap: 12px;
+    }
+
+    header .container #descricao h2 {
+        font-size: 24px;
+    }
 }
