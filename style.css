@@ -33,9 +33,9 @@ header #frete p {
 
 header .container {
     height: 400px;
-    background: linear-gradient(0deg, rgba(18, 18, 20, 0.20) 0%, rgba(18, 18, 20, 0.20) 100%), url(./assets/images/jordan-background.png), lightgray 0px -77px / 100% 269.011% no-repeat;
+    background: linear-gradient(0deg, rgba(18, 18, 20, 0.20) 0%, rgba(18, 18, 20, 0.20) 100%), url(./assets/images/jordan-background.png), lightgray 0px -77px / 100% 269.011%;
 
-    position: relative;
+    background-repeat: no-repeat;
 }
 
 header .container #slogan {
@@ -43,15 +43,9 @@ header .container #slogan {
     flex-direction: column;
     gap: 40px;
 
-    position: absolute;
-    /* left: 280px;
-    top: 94px; */
-
-    padding: 95px 650px 95px 352px;
+    padding: 95px 465px 95px 352px;
 
     color: var(--dark-30);
-
-    /* width: 26.5%; */
 }
 
 header .container #logo {
@@ -81,6 +75,7 @@ header .container #descricao h2 {
 }
 
 header .container #descricao p {
+    font-size: 24px;
     font-weight: 400;
     line-height: 140%;
 }
@@ -177,12 +172,13 @@ main .product .preco {
 @media (max-width: 768px) {
     header .container {
         height: 350px;
-        background: linear-gradient(0deg, rgba(18, 18, 20, 0.20) 0%, rgba(18, 18, 20, 0.20) 100%), url(./assets/images/jordan-background-tablet.png), lightgray 50% / contain;
+        background: linear-gradient(0deg, rgba(18, 18, 20, 0.20) 0%, rgba(18, 18, 20, 0.20) 100%), url(./assets/images/jordan-background-tablet.png), lightgray 50%;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
     header .container #slogan {
-        padding: 99px 380px 149px 32px;
+        padding: 99px 340px 149px 32px;
     }
 
     header .container #logo h1 {
@@ -202,6 +198,10 @@ main .product .preco {
         font-size: 24px;
     }
 
+    header .container #descricao p {
+        font-size: 18px;
+    }
+
     main {
         margin: 0px 32px;
         padding: 56px 0px;
@@ -214,6 +214,27 @@ main .product .preco {
     }
 
     main #main-header p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    header #frete p {
+        font-size: 14px;
+    }
+
+    header .container {
+        height: 350px;
+        background: linear-gradient(0deg, rgba(18, 18, 20, 0.20) 0%, rgba(18, 18, 20, 0.20) 100%), url(./assets/images/jordan-background-mobile.png), lightgray 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    header .container #slogan {
+        padding: 91px 24px 0px 45px;
+    }
+
+    header .container #descricao p {
         font-size: 16px;
     }
 }
